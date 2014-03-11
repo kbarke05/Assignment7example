@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1ec4930d-2e6a-4208-8034-f667a813aed5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1255/CommAsstServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CommAsstServices.disco" MetadataType="Disco" ID="96f99028-eec3-4724-a793-bcce39bb6bf1" SourceId="1" SourceUrl="http://localhost:1255/CommAsstServices.svc?disco" />
+    <MetadataFile FileName="CommAsstServices.wsdl" MetadataType="Wsdl" ID="52ccfeea-ee4e-4cbd-a1be-8cfb8fa65492" SourceId="1" SourceUrl="http://localhost:1255/CommAsstServices.svc?wsdl" />
+    <MetadataFile FileName="CommAsstServices.xsd" MetadataType="Schema" ID="65ff77df-04d3-4805-b8ca-39ab8a01a8f1" SourceId="1" SourceUrl="http://localhost:1255/CommAsstServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="CommAsstServices1.xsd" MetadataType="Schema" ID="6fc5d7f1-682b-46a9-afee-d47b22e721f8" SourceId="1" SourceUrl="http://localhost:1255/CommAsstServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="CommAsstServices2.xsd" MetadataType="Schema" ID="e29922d3-0a2e-48c5-800f-59177bcfdbbc" SourceId="1" SourceUrl="http://localhost:1255/CommAsstServices.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
